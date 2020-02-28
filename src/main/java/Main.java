@@ -28,6 +28,7 @@ public class Main {
             System.out.println("It's done!");
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Something went wrong.");
         }
     }
 }
