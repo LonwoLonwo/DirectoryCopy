@@ -21,16 +21,19 @@ body:
     attributes:
       label: Priority
       options:
-        - label: xp:minor
-          value: minor
-        - label: xp:normal
-          value: normal
-        - label: xp:major
-          value: major
-        - label: xp:critical
-          value: critical
+        - label: Minor
+          value: xp:minor
+        - label: Normal
+          value: xp:normal
+        - label: Major
+          value: xp:major
+        - label: Critical
+          value: xp:critical
     validations:
       required: true
+    on_change:
+      action: add_label
+      value: "{{value}}" # This maps the selected priority to the corresponding label.
 
   - type: dropdown
     id: project
@@ -47,6 +50,9 @@ body:
           value: P:PM
     validations:
       required: true
+    on_change:
+      action: add_label
+      value: "{{value}}" # Maps the selected project to the corresponding label.
 
   - type: textarea
     id: attachment_notes
