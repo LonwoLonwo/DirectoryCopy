@@ -1,0 +1,48 @@
+name: Issue Template
+description: Use this template to submit a request with the required details.
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Request Description
+        Please provide a clear and concise description of the request.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Enter the details of the request here.
+    validations:
+      required: true
+
+  - type: select
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - xp:minor
+        - xp:normal
+        - xp:major
+        - xp:critical
+    validations:
+      required: true
+
+  - type: select
+    id: project
+    attributes:
+      label: Project
+      options:
+        - P:CB
+        - P:DB
+        - P:CORE
+        - P:PM
+    validations:
+      required: true
+
+  - type: input
+    id: attachment
+    attributes:
+      label: File Attachment
+      placeholder: Upload file(s) relevant to this ticket here.
+      multiple: true
