@@ -16,33 +16,40 @@ body:
     validations:
       required: true
 
-  - type: select
+  - type: dropdown
     id: priority
     attributes:
       label: Priority
       options:
-        - xp:minor
-        - xp:normal
-        - xp:major
-        - xp:critical
+        - label: xp:minor
+          value: minor
+        - label: xp:normal
+          value: normal
+        - label: xp:major
+          value: major
+        - label: xp:critical
+          value: critical
     validations:
       required: true
 
-  - type: select
+  - type: dropdown
     id: project
     attributes:
       label: Project
       options:
-        - P:CB
-        - P:DB
-        - P:CORE
-        - P:PM
+        - label: P:CB
+          value: P:CB
+        - label: P:DB
+          value: P:DB
+        - label: P:CORE
+          value: P:CORE
+        - label: P:PM
+          value: P:PM
     validations:
       required: true
 
-  - type: input
-    id: attachment
+  - type: textarea
+    id: attachment_notes
     attributes:
-      label: File Attachment
-      placeholder: Upload file(s) relevant to this ticket here.
-      multiple: true
+      label: Attachments
+      description: Add any comments or details about the files you're uploading. Actual files should be attached to the issue after submission.
