@@ -10,3 +10,5 @@ body: |
   Please, add the severity label, products labels and other labels.
   This text will be visible while creating the issue but will be hidden after submission.
   -->
+
+  ---
