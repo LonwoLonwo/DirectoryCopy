@@ -7,9 +7,7 @@ body:
     attributes:
       value: |
         Thank you for reporting a bug in CloudBeaver!
-        We appreciate your help in making CloudBeaver better.
         To ensure we can address the issue as quickly and efficiently as possible, please provide as much detail as you can in the fields below.
-        Be sure to fill in all required information, and include steps to reproduce the issue, any error messages, and your system/environment details.
   - type: textarea
     id: description
     attributes:
