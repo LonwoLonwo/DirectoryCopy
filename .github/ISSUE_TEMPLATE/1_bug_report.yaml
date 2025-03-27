@@ -1,7 +1,7 @@
 name: 🐛 Bug Report
-labels: [wait for review]
-type: Bug
 description: Create a report to help us improve our product
+labels: [wait for review]
+#type: Bug
 body:
   - type: markdown
     attributes:
@@ -10,7 +10,6 @@ body:
         We appreciate your help in making CloudBeaver better.
         To ensure we can address the issue as quickly and efficiently as possible, please provide as much detail as you can in the fields below.
         Be sure to fill in all required information, and include steps to reproduce the issue, any error messages, and your system/environment details.
-
   - type: textarea
     id: description
     attributes:
@@ -23,9 +22,8 @@ body:
          - If applicable, add screenshots or screen recordings to help explain your problem.
       placeholder: |
         Please enter a description of the issue. Here you can also attach log files, screenshots or a video
-      validations:
-          required: true
-
+    validations:
+      required: true
   - type: textarea
     id: reproduce
     attributes:
@@ -36,9 +34,6 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-    validations:
-      required: false
-
   - type: textarea
     id: expected
     attributes:
@@ -47,7 +42,6 @@ body:
         A clear and concise description of what happens in the software **after** a fix is created and merged.
     validations:
       required: true
-
   - type: input
     id: version
     attributes:
@@ -56,7 +50,6 @@ body:
       placeholder: ex. CloudBeaver Community 25.0.0
     validations:
       required: true
-
   - type: textarea
     id: additional-context
     attributes:
@@ -66,5 +59,5 @@ body:
         Example:
         1. OS: [e.g. iOS, Ubuntu, Windows 11]
         2. Browser: [e.g. Chrome, Safari]
-      validations:
-          required: false
+    validations:
+      required: false
