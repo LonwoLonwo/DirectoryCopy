@@ -58,13 +58,13 @@ body:
       required: true
 
   - type: textarea
-        id: additional-context
-        attributes:
-          label: Additional context
-          description: Any additional context about the environment
-          placeholder: |
-            Example:
-            1. OS: [e.g. iOS, Ubuntu, Windows 11]
-            2. Browser: [e.g. Chrome, Safari]
-        validations:
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Any additional context about the environment
+      placeholder: |
+        Example:
+        1. OS: [e.g. iOS, Ubuntu, Windows 11]
+        2. Browser: [e.g. Chrome, Safari]
+      validations:
           required: false
