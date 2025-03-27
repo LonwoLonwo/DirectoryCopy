@@ -6,24 +6,24 @@ body:
   - type: markdown
     attributes:
       value: |
-      Thank you for reporting a bug in CloudBeaver!
-      We appreciate your help in making CloudBeaver better.
-      To ensure we can address the issue as quickly and efficiently as possible, please provide as much detail as you can in the fields below.
-      Be sure to fill in all required information, and include steps to reproduce the issue, any error messages, and your system/environment details.
+        Thank you for reporting a bug in CloudBeaver!
+        We appreciate your help in making CloudBeaver better.
+        To ensure we can address the issue as quickly and efficiently as possible, please provide as much detail as you can in the fields below.
+        Be sure to fill in all required information, and include steps to reproduce the issue, any error messages, and your system/environment details.
 
   - type: textarea
     id: description
     attributes:
       label: Description
       description: |
-            A clear and concise description of the issue being addressed.
-            - Describe the actual problematic behavior.
-            - Ensure private information is redacted.
-            - Include console output or log files if relevant.
-            - If applicable, add screenshots or screen recordings to help explain your problem.
-          placeholder: |
-            Please enter a description of the issue. Here you can also attach log files, screenshots or a video
-        validations:
+        A clear and concise description of the issue being addressed.
+         - Describe the actual problematic behavior.
+         - Ensure private information is redacted.
+         - Include console output or log files if relevant.
+         - If applicable, add screenshots or screen recordings to help explain your problem.
+      placeholder: |
+        Please enter a description of the issue. Here you can also attach log files, screenshots or a video
+      validations:
           required: true
 
   - type: textarea
@@ -32,10 +32,10 @@ body:
       label: Steps to reproduce
       description: Describe the steps to reproduce the bug
       placeholder: |
-            1. Go to '...'
-            2. Click on '....'
-            3. Scroll down to '....'
-            4. See error
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
     validations:
       required: false
 
