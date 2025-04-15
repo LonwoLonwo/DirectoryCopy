@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Please provide a detailed description of your feature request for CloudBeaver. Include the problem you are trying to solve, why it is important, and any specific functionality or enhancements you believe would improve the platform. If applicable, provide context or use cases that illustrate how this feature could benefit users.
+about: Provide a description of your feature request for CloudBeaver. Include the problem you are trying to solve, why it is important, and any specific functionality you believe would improve the platform.
 title: ''
 labels: wait for review
 #type: Feature
